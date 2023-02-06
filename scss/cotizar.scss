@@ -1,0 +1,11 @@
+#menuCotizar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cotizacion{
+    @include flex-center-column;
+    margin: 4rem 0;
+}
+
